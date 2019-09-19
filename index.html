@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <input id="new-todo" placeholder="Enter new todo">
+        <button id="add-todo">Add</button>
+        <button id="clear">Clear local storage</button>
+        <button id="load">Load from server</button>
+    </header>
+    <div id="main">
+        <div id="head">
+            <span id="spanToDo" class="span">To do</span>
+            <span id="spanInprogress" class="span">In progress</span>
+            <span id="spanDone" class="span"> Done</span>
+        </div>
+        <div id="todos">
+            <div class="todos" id="todo"></div>
+            <div class="todos" id="inprogress"></div>
+            <div class="todos" id="done"></div>
+        </div>
+    </div>
+    <!-- <footer></footer> -->
+    <script src="app.js"></script>
+</body>
+</html> 
